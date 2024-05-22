@@ -8,6 +8,7 @@ public class Empregado {
     public Empregado (String nome, String endereco, double salario) {
         this.nome = nome;
         this.endereco = endereco;
+        this.salario = salario;
     }
  
     // Construtor vazio
@@ -65,6 +66,7 @@ public class Empregado {
             aux = salario * 0.14;
         }
         return aux;
+        }
 
         public void imprimir (){
             System.out.println ("Nome: " + getNome ());
@@ -72,5 +74,4 @@ public class Empregado {
             System.out.println ("Salario: " + getSalario());
         }
     }
-}
 

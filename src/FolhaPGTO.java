@@ -36,18 +36,18 @@ public class FolhaPGTO {
         //Empregados horistas EUUUUUU
         hora1 = new Horista ("Priscila", "Rua do Amor", 0, 160, 25.50);
         hora1.calcularSalarioHoras();
-        System.out.println ("Nome: " + hora1.getNome());
-        System.out.println ("Endereco: " + hora1.getEndereco());
-        System.out.println ("Salario: " + hora1.getSalario());
-        System.out.println ("Horas trabalhadas: " + hora1.getHoras());
+        //System.out.println ("Nome: " + hora1.getNome());
+        //System.out.println ("Endereco: " + hora1.getEndereco());
+        //System.out.println ("Salario: " + hora1.getSalario());
+        //System.out.println ("Horas trabalhadas: " + hora1.getHoras());
         hora1.imprimir();
 
         hora2 = new Horista ("Daniel", "Rua do Amor", 0, 160, 21);
         hora2.calcularSalarioHoras();
-        System.out.println ("Nome: " + hora2.getNome());
-        System.out.println ("Endereco: " + hora2.getEndereco());
-        System.out.println ("Salario: " + hora2.getSalario());
-        System.out.println ("Horas trabalhadas: " + hora2.getHoras());
+        //System.out.println ("Nome: " + hora2.getNome());
+        //System.out.println ("Endereco: " + hora2.getEndereco());
+        //System.out.println ("Salario: " + hora2.getSalario());
+        //System.out.println ("Horas trabalhadas: " + hora2.getHoras());
         hora2.imprimir();
 
         }
