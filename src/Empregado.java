@@ -65,6 +65,12 @@ public class Empregado {
             aux = salario * 0.14;
         }
         return aux;
+
+        public void imprimir (){
+            System.out.println ("Nome: " + getNome ());
+            System.out.println ("Endereco: " + getEndereco());
+            System.out.println ("Salario: " + getSalario());
+        }
     }
 }
 
