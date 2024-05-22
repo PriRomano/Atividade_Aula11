@@ -4,6 +4,14 @@ public class FolhaPGTO {
         Mensalista men1, men2;
         Horista hora1, hora2;
 
+        // TENHO QUE VER //
+        //Os news da folha de pagamento todos estao dando erros
+        // Atualizar calculo IRPF
+        // Atualizar calculo INSS
+        // Identificar falha calculo salario mensalista (era a falta de um else com 0 como msg de erro???)
+        // Criar metodo void imprimir
+
+        
         // Empregados mensalistas
         men1 = new Mensalista ("Rodrigo", "Rua da felicidade", double.class, "Junior");
         men1.calcularSalario ();
