@@ -21,10 +21,15 @@ public class Mensalista  extends Empregado {
             salario = 2500;
         } else if (cargo.equals ("Pleno")) {
             salario = 3500;
-        } else {
+            // Coloquei o cargo Senior, q nao tinha, e um else final com salario de 0, caso o cargo nao seja nenhum desses 3
+        } else if (cargo.equals ("Senior")) {
             salario = 5500;
+        } else {
+            salario = 0;
         }
+ 
     }
- 
- 
+
 }
+
+

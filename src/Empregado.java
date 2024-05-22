@@ -39,8 +39,8 @@ public class Empregado {
         this.salario = salario;
     }
  
-    public double calcularIrpf () {
-        double aux = 0;;
+    public double calcIrpf () {
+        double aux = 0;
         if (salario > 2112.01 && salario < 2826.66) {
             aux = salario * 0.075;
         } else if (salario >= 2826.67 && salario <= 3751.05) {
